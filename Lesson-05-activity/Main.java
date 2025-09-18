@@ -64,7 +64,6 @@ class Main {
     Declare and assign values to any new variables
 
 */
- 
         int a1 = 8; 
         int x1 = 4;   
 
