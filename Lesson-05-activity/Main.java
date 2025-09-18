@@ -40,7 +40,8 @@ class Main {
     NOTE: Does it look correct, check with a calculator?
 */
 
-
+   average = equal / 3.0;
+   System.out.println("The average grade is: " + average);
 
 
 
@@ -50,7 +51,11 @@ class Main {
     Declare and assign values to any new variables
 
 */
-  
+    int a = 10;   
+    int x = 5;    
+        int y = a / (x + 1);
+
+    System.out.println("The value of y is equal to : " + y);
 
 /*  
     Challenge 5:
@@ -60,7 +65,12 @@ class Main {
 
 */
  
+        int a1 = 8; 
+        int x1 = 4;   
 
+        int y1= 2 * x * (x1 + 1) * (-x1 / 2) / a1;
+
+        System.out.println("The value of y is: " + y1);
 
 
 
@@ -73,6 +83,12 @@ class Main {
     Declare and assign values to any new variables
 */
  
+        int b = 20;  
+        int h = 5;
+
+        int area = 0.5 * b * h;
+
+        System.out.println("The area is: " + area);
 
 
 
