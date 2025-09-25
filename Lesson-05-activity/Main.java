@@ -53,7 +53,7 @@ class Main {
 */
     int a = 10;   
     int x = 5;    
-        int y = a / (x + 1);
+    int y = a / (x + 1);
 
     System.out.println("The value of y is equal to : " + y);
 
@@ -65,9 +65,9 @@ class Main {
 
 */
         int a1 = 8; 
-        int x1 = 4;   
+        int x3 = 4;   
 
-        int y1= 2 * x * (x1 + 1) * (-x1 / 2) / a1;
+        int y1= 2 * x * (x3 + 1) * (-x3 / 2) / a1;
 
         System.out.println("The value of y is: " + y1);
 
