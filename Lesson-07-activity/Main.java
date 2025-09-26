@@ -27,13 +27,13 @@ class Main {
 /*  
     Challenge 3:
     Create the variables, ask the user for the variable values, write the equation in file EQ2-act6 and display the equation value..
+/* */
+  System.out.println("Enter t, r:");
+  double t = Input.readDouble();
+  double r = Input.readDouble();
+  s = Math.pow(t, 5) * Math.pow(r + 2, 4);
+  System.out.println(s);
 
-    System.out.println("enter t,r");
-   double t = Input.readDouble();
-   double s = 0;
-   double r =Input.readDouble();
-   s = Math.pow(t,5)*();
-   System.out.println(s);
 
 
  
@@ -43,6 +43,12 @@ class Main {
     Create the variables, ask the user for the variable values, write the equation in file EQ3-act6 and display the equation value..
     
 */
+  System.out.println("Enter a, b:");
+  double a = Input.readDouble();
+  double b = Input.readDouble();
+   c = Math.sqrt(a + b);
+  System.out.println(c);
+
 
 
 
@@ -51,7 +57,13 @@ class Main {
     Create the variables, ask the user for the variable values, write the equation in file EQ4-act6 and display the equation value..
     
 */
-
+  System.out.println("Enter x1, y1, x2, y2: ");
+  double x1 = Input.readDouble();
+  double y1 = Input.readDouble();
+  double x2 = Input.readDouble();
+  double y2 = Input.readDouble();
+  d = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+ System.out.println(d);
 
 
 
@@ -61,7 +73,10 @@ class Main {
     
 */
 
-
+    System.out.println("Enter deg:");
+    double deg = Input.readDouble();   
+    g = Math.sin(Math.toRadians(deg));  
+    System.out.println(g);
 
 
 
@@ -70,7 +85,11 @@ class Main {
     Create the variables, ask the user for the variable values, write the equation in file EQ5-act6 and display the equation value.
     
 */
-
+  System.out.println("Enter m, n:");
+  double m = Input.readDouble();
+  double n = Input.readDouble();
+  k = Math.pow(m, 5) / Math.sqrt(n + 1);
+  System.out.println(k);
 
 
 
