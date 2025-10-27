@@ -58,16 +58,10 @@ class Main {
     }
 
        boolean validatePswd(String pswd) {
-        if(pswd.length() < 5 || pswd.length() > 8) {
+        if(pswd.length() < 5 && pswd.length() > 8) {
             return false;
-        } else {
-            for(char c : pswd.toCharArray()) {
-                if(c == '^' || c == '*' || c == '(' || c == ')') {
-                    return false;
-                }
             }
             return true;
         }
       }
-}
 
